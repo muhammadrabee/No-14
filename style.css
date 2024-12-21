@@ -1,0 +1,115 @@
+* {
+    font-family: poppins, oswald, josefin sans, sans-serif;
+/* border: 1px solid red; */
+}
+
+.navbar {
+    background-color: #8b0051;
+}
+
+.nav-link {
+    color: snow !important;
+    font-family: poppins, oswald, josefin sans, sans-serif;
+
+}
+
+.container-fluid .h1 {
+    font-family: poppins, oswald, josefin sans, sans-serif;
+    font-weight: 400 !important;
+    font-size: 32px !important;
+    color: black !important;
+
+}
+
+.btn-cart {
+    border: 1px solid black;
+    width: 100%;
+    font-family: poppins, oswald, josefin sans, sans-serif;
+}
+
+.btn-cart:action {
+    border: 1px solid #8b0051;
+}
+
+.btn-cart:focus {
+    border: 1.5px solid #8b0051;
+    /* background-color: red !important; */
+
+}
+
+.price-tag {
+    font-size: 17px;
+    max-width: max-content;
+    margin: 5px auto;
+}
+
+.txt-div {
+    height: 100vh;
+    background-color: #dbdbdb;
+
+}
+
+.txt-col>.p,
+.h1 {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.col-img {
+    /* object-fit: cover; */
+    /* object-position: center; */
+    overflow: hidden;
+    /* max-width: 90vw; */
+    max-height: 100vh;
+}
+
+.btn-1st-rivaj {
+    background-color: #8b0051;
+    /* width: 100px; */
+    color: white;
+    border: none;
+}
+
+.btn-1st-rivaj:hover {
+    background-color: #8b0051;
+}
+.footer-div {
+    background: #dbdbdb;
+  }
+  footer li,p{
+    color: #65707c ;
+    font-size: 14px;
+    margin:10px 0 ;
+  }
+  footer h5{
+    font-size: 17px;
+  }
+  .last-footer li a{
+    text-decoration: none;
+    color: #65707c !important;
+  }
+  ul li{
+    color: black;
+  }
+  .beforefooter{
+    background: #f5f2f3;
+    /* width: 100vw; */
+    height: 200px;
+    display: flex;
+}
+.footer-links{
+    color: #65707c !important;
+}
+.inners{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inners p{
+    font-weight: 600;
+    color: black;
+}
